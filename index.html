@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweetie Loops | Fashion by Lakshi Mishra</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#fff8fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#ff4f8b;
+    color:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(#ffd6e5,#fff);
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    margin:20px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#ff4f8b;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    margin-top:10px;
+}
+
+section{
+    padding:60px 8%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:30px;
+    color:#ff4f8b;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card h3,p{
+    padding:10px;
+}
+
+.buy{
+    padding:10px;
+}
+
+.buy a{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    background:#ff4f8b;
+    padding:10px;
+    border-radius:5px;
+    margin:6px 0;
+}
+
+.about{
+    text-align:center;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.feature{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:10px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Sweetie Loops</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Designed with Love ❤️</h1>
+
+<p>Premium Fashion Collection by Lakshi Mishra</p>
+
+<a class="btn" href="#products">Explore Collection</a>
+
+</section>
+
+<section id="products">
+
+<h2 class="title">Featured Products</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://picsum.photos/400/300?1">
+<h3>Designer Dress</h3>
+<p>Elegant & Stylish Collection</p>
+
+<div class="buy">
+<a href="#">Buy on Amazon</a>
+<a href="#">Buy on Flipkart</a>
+<a href="#">Buy on Myntra</a>
+</div>
+
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?2">
+<h3>Casual Wear</h3>
+<p>Comfort with Fashion</p>
+
+<div class="buy">
+<a href="#">Buy on Amazon</a>
+<a href="#">Buy on Flipkart</a>
+<a href="#">Buy on Myntra</a>
+</div>
+
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?3">
+<h3>Party Wear</h3>
+<p>Premium Designer Outfit</p>
+
+<div class="buy">
+<a href="#">Buy on Amazon</a>
+<a href="#">Buy on Flipkart</a>
+<a href="#">Buy on Myntra</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2 class="title">About Sweetie Loops</h2>
+
+<p>
+
+Sweetie Loops is a premium fashion brand created by professional fashion designer <strong>Lakshi Mishra</strong>. We focus on stylish, comfortable and high-quality clothing that brings confidence to every customer.
+
+</p>
+
+</section>
+
+<section>
+
+<h2 class="title">Why Choose Us?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>✔ Premium Quality</h3>
+<p>High-quality fabrics and stitching.</p>
+</div>
+
+<div class="feature">
+<h3>🚚 On-Time Delivery</h3>
+<p>Fast and reliable delivery.</p>
+</div>
+
+<div class="feature">
+<h3>⭐ Trusted Brand</h3>
+<p>Available on Amazon, Flipkart & Myntra.</p>
+</div>
+
+<div class="feature">
+<h3>❤️ Customer Satisfaction</h3>
+<p>Designed with care and passion.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<p><strong>Lakshi Mishra</strong></p>
+
+<p>Professional Fashion Designer</p>
+
+<p>🌐 sweetieloops.com</p>
+
+<p>📧 info@sweetieloops.com</p>
+
+<p>📱 +91-9876543210</p>
+
+<a class="btn" href="#">Shop Now</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Sweetie Loops | Designed by Lakshi Mishra</p>
+
+</footer>
+
+<script>
+
+document.querySelectorAll('a[href^="#"]').forEach(link=>{
+
+link.addEventListener("click",function(e){
+
+e.preventDefault();
+
+document.querySelector(this.getAttribute("href")).scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
